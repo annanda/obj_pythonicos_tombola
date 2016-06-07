@@ -1,2 +1,4 @@
 class Tombola:
-    pass
+
+    def carregada(self):
+        return False
