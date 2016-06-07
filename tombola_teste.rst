@@ -29,6 +29,13 @@ Deve ser possível sortear elementos de uma tômbola::
     >>> t.carregada()
     False
 
-Deve ser possível misturar os elementos de uma tômbola::
-    >>> t.misturar()
+Deve ser possível misturar elementos de uma tômbola::
 
+    >>> bolas = [1, 2]
+    >>> t.carregar(bolas)
+    >>> saida = []
+    >>> while t.carregada():
+    ...     elemento = t.sortear()
+    ...     saida.append(elemento)
+    >>> len(saida) == len(bolas)
+    True
