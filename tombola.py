@@ -1,4 +1,8 @@
+import random
+
+
 class Tombola:
+
     bolas = None
 
     def carregada(self):
@@ -13,4 +17,4 @@ class Tombola:
         return self.bolas.pop()
 
     def misturar(self):
-        pass
+        random.shuffle(self.bolas)

@@ -31,11 +31,15 @@ Deve ser possível sortear elementos de uma tômbola::
 
 Deve ser possível misturar elementos de uma tômbola::
 
-    >>> bolas = [1, 2]
+    >>> bolas = [1, 2, 3, 4]
     >>> t.carregar(bolas)
+    >>> t.misturar()
     >>> saida = []
     >>> while t.carregada():
     ...     elemento = t.sortear()
     ...     saida.append(elemento)
     >>> len(saida) == len(bolas)
+    True
+    >>> saida.reverse()
+    >>> saida != bolas
     True
