@@ -15,7 +15,7 @@ Ao criar uma tômbola vazia, o método carregada deve retornar Falso::
 Deve ser possível carregar a tômbola com itens de uma lista::
 
     >>> bolas = list(range(3))
-    >>> t.carregar()
+    >>> t.carregar(bolas)
     >>> t.carregada()
     True
 
