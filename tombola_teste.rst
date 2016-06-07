@@ -29,3 +29,6 @@ Deve ser possível sortear elementos de uma tômbola::
     >>> t.carregada()
     False
 
+Deve ser possível misturar os elementos de uma tômbola::
+    >>> t.misturar()
+
