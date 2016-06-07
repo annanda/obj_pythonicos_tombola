@@ -19,4 +19,10 @@ Deve ser possível carregar a tômbola com itens de uma lista::
     >>> t.carregada()
     True
 
-
+Deve ser possível sortear elementos de uma tômbola::
+    >>> t.sortear()
+    2
+    >>> t.sortear()
+    1
+    >>> t.sortear()
+    0
