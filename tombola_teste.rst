@@ -26,3 +26,6 @@ Deve ser possível sortear elementos de uma tômbola::
     1
     >>> t.sortear()
     0
+    >>> t.carregada()
+    False
+
